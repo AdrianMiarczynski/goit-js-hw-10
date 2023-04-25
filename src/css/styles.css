@@ -10,6 +10,10 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 #search-box {
@@ -17,4 +21,64 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+.country-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.list-item {
+  background-image: linear-gradient(
+    to right top,
+    #fffefe 15%,
+    #00b9ff 65%,
+    #fffefe
+  );
+  padding: 0.5rem;
+  list-style: none;
+  border-radius: 0.5rem;
+  min-width: 14rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  min-height: 100px;
+}
+.list-item--modification {
+  background-image: none;
+  border: none;
+  min-width: 100vw;
+  min-height: 200px;
+  justify-content: center;
+  font-size: 50;
+}
+.country-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+  border-radius: 0.5rem;
+}
+.country-info p {
+  margin-left: 0.5rem;
+}
+.imgEl {
+  margin-right: 10px;
+}
+.img--modyfication {
+  width: 200px;
+}
+.bg-body{
+  background-image: linear-gradient(
+    to right top,
+    #fffefe 15%,
+    #00b9ff 65%,
+    #fffefe
+  );
 }
